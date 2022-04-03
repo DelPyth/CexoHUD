@@ -18,5 +18,5 @@ Open `mainmenu_friends_list.res` and read through. You'll know what to do.
 - Add more customizations.
 - Add more animation customizations
 - Add screenshots to showcase HUD.
-- Submit HUD to [https://huds.tf](huds.tf)
+- Submit HUD to [huds.tf](https://huds.tf).
 
