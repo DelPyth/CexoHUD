@@ -7,22 +7,22 @@
 	{
 		"ControlName"					"ImagePanel"
 		"fieldname"						"CustomCrosshairImage"
-		"xpos"							"c-16"
-		"ypos"							"c-16"
+		"xpos"							"c-10"
+		"ypos"							"c-10"
 		"zpos"							"2"
-		"wide"							"32"
-		"tall"							"32"
+		"wide"							"20"
+		"tall"							"20"
 		"enabled"						"1"
 
 		// The image to use for your crosshair.
-		"image"							"replay/thumbnails/crosshair5"
+		"image"							"replay/thumbnails/crosshair1"
 		"scaleImage"					"1"
 
 		// How much transparency to make the image. 255 is max.
 		"alpha"							"255"
 
 		// Set this to "1" to show the crosshair.
-		"visible"						"1"
+		"visible"						"0"
 	}
 
 	"CustomCrosshairFont"				// Custom crosshair text

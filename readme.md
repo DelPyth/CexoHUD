@@ -13,3 +13,10 @@ Want custom bookmarks? Open the file and read the comment at the top.
 # Friends list
 Open `mainmenu_friends_list.res` and read through. You'll know what to do.
 
+# TODO
+- Add customization GUI.
+- Add more customizations.
+- Add more animation customizations
+- Add screenshots to showcase HUD.
+- Submit HUD to [https://huds.tf](huds.tf)
+
