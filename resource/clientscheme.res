@@ -2340,7 +2340,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
