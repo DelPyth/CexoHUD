@@ -1,9 +1,9 @@
 hudanimations_manifest
 {
+	// CexoHUD animations.
+	"file"  "scripts/hudanimations_custom.txt"
+
 	// Default animations.
 	"file"  "scripts/hudanimations.txt"
 	"file"  "scripts/hudanimations_tf.txt"
-
-	// CexoHUD animations.
-	"file"  "scripts/hudanimations_custom.txt"
 }
