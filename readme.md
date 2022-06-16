@@ -3,7 +3,7 @@ Super simple.<br>
 Super easy to read.<br>
 Super comfortable.<br>
 
-*See [changelog](/changelog.md) for changes...*
+*See [changelog](/changelog.md) for changes done...*
 
 # Crosshairs
 Open `customization/crosshairs.res` and go from there. Crosshair font showcase is `crosshairs.png`.
