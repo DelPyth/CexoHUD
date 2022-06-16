@@ -11,7 +11,7 @@
 		// TOGGLE ME!
 		// Set to 1 to enable the friends list on the main menu.
 		// Set to 0 to disable the friends list.
-		"visible"		"0"
+		"visible"		"1"
 
 
 
