@@ -1,7 +1,9 @@
 # CexoHUD
-Super simple.
-Super easy to read.
-Super comfortable.
+Super simple.<br>
+Super easy to read.<br>
+Super comfortable.<br>
+
+*See [changelog](/changelog.md) for changes...*
 
 # Crosshairs
 Open `customization/crosshairs.res` and go from there. Crosshair font showcase is `crosshairs.png`.

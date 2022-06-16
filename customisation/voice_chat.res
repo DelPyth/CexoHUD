@@ -1,5 +1,18 @@
 "Resource/HudLayout.res"
 {
+	// When you talk
+	HudVoiceSelfStatus
+	{
+		"fieldName" "HudVoiceSelfStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r42"
+		"ypos" "355"
+		"wide" "32"
+		"tall" "32"
+	}
+
+	// When others talk
 	HudVoiceStatus
 	{
 		"fieldName"          "HudVoiceStatus"

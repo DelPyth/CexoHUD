@@ -91,21 +91,6 @@
 		"fgcolor"		"Garm3nHUDBlack"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
-	"HealthBarLiterally"
-	{
-		"fieldName"		"HealthBarLiterally"
-		"ControlName"	"EditablePanel"
-		"xpos"			"-55"
-		"ypos"			"-35"
-		"zpos"			"5"
-		"tall"			"2"
-		"wide"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"bgcolor_override"	"0 0 0 0"                 // Blank because it should not be visible initially.
-	}
-
 
 	// playerstatus stuff
 

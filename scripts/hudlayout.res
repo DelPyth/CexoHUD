@@ -433,30 +433,30 @@
 
 	HudDeathNotice
 	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"
-		"ypos"	 "16"
-		"wide"	 "628"
-		"tall"	 "468"
+		"fieldName"              "HudDeathNotice"
+		"visible"                "1"
+		"enabled"                "1"
+		"xpos"                   "r640"
+		"ypos"                   "16"
+		"wide"                   "628"
+		"tall"                   "468"
 
-		"MaxDeathNotices" "12"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "13"
-		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"MaxDeathNotices"        "12"
+		"IconScale"              "0.35"
+		"LineHeight"             "13"
+		"LineSpacing"            "1"
+		"CornerRadius"           "0"
+		"RightJustify"           "1"	// If 1, draw notices from the right
 
-		"TextFont"		"Garm3nFont8"
+		"TextFont"               "Garm3nFont8"
 
-		"TeamBlue"		"Garm3nHUDBlueTeam"
-		"TeamRed"		"Garm3nHUDRedTeam"
-		"IconColor"		"Garm3nHUDWhite"
-		"LocalPlayerColor"	"25 25 25 255"
+		"TeamBlue"               "Garm3nHUDBlueTeam"
+		"TeamRed"                "Garm3nHUDRedTeam"
+		"IconColor"              "Garm3nHUDWhite"
+		"LocalPlayerColor"       "25 25 25 255"
 
-		"BaseBackgroundColor"	"0 0 0 127"
-		"LocalBackgroundColor"	"255 255 255 200"
+		"BaseBackgroundColor"    "21 21 21 135"
+		"LocalBackgroundColor"   "255 255 255 200"
 	}
 
 	HudVehicle
@@ -665,46 +665,6 @@
 		"ypos"	 "c-64"
 		"wide"	 "64"
 		"tall"	 "128"
-	}
-
-	HudVoiceSelfStatus
-	{
-		"fieldName" "HudVoiceSelfStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r42"
-		"ypos" "355"
-		"wide" "32"
-		"tall" "32"
-	}
-
-	HudVoiceStatus
-	{
-		"fieldName" "HudVoiceStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r145"
-		"ypos" "0"
-		"wide" "145"
-		"tall" "400"
-
-		"item_wide"	"135"
-
-		"show_avatar"		"0"
-
-		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
-
-		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
-
-		"text_xpos"			"33"
 	}
 
 	HudHintDisplay
