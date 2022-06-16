@@ -266,9 +266,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cascadia Code SemiBold"
-				"tall"		"12"
-				"weight"	"700"
+				"name"		"Consolas"
+				"tall"		"11"
+				"weight"	"500"
 			}
 		}
 	}
