@@ -27,3 +27,6 @@
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+# Ignore sound cache folder, it's not needed.
+sound/*
