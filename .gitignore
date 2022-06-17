@@ -30,3 +30,6 @@
 
 # Ignore sound cache folder, it's not needed.
 sound/*
+
+# Ignore anything in development.
+dev/*
