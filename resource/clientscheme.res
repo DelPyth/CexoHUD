@@ -1873,6 +1873,17 @@ Scheme
 			}
 		}
 
+		"ClassIcons"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"30"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
 		"Default"
         {
             "1"
@@ -7163,5 +7174,11 @@ Scheme
 			"font" "resource/fonts/TF2Crosshairs.ttf"
 			"name" "TF2Crosshairs"
 		}
+		"11"
+		{
+			"font" "resource/fonts/HudasIscariote2.otf"
+			"name" "Hudas Iscariote"
+		}
 	}
 }
+

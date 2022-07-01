@@ -670,7 +670,6 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
 				"font"			"Garm3nFont14"
-				"font_minmode"			"Default"
 			}
 			"Score"
 			{

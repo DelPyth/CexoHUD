@@ -879,10 +879,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-140"
-		"ypos"			"c-20"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"0"  // "c-140"
+		"ypos"			"-100"  // "c-20"
+		"wide"			"f0"  // "450"
+		"tall"			"f0"  // "195"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -891,10 +891,10 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"200"
+		"xpos"			"0"  // "c-225"
+		"ypos"			"-100"  // "c-55"
+		"wide"			"f0"  // "450"
+		"tall"			"f0"  // "200"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -903,10 +903,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"0"  //"c-125"
+		"ypos"			"-100"  //"c-55"
+		"wide"			"f0"  //"250"
+		"tall"			"f0"  //"195"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -915,10 +915,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"0"  // "c-235"
+		"ypos"			"-100"  // "c-52"
+		"wide"			"f0"  // "470"
+		"tall"			"f0"  // "200"
 		"PaintBackgroundType"	"0"
 	}
 
