@@ -20,7 +20,8 @@
 
 		// The image to use for your crosshair.
 		// This image must be in the `materials/vgui/replays/thumbnails` directory in order to show no matter what server you join.
-		"image"                         "replay/thumbnails/custom_crosshair"
+		// Replace the CROSSHAIR with your file name. The file must have a VMT file and the crosshair must be in the VTF format.
+		"image"                         "replay/thumbnails/crosshair"
 
 		// Scale image. As far as I know, this scales the image to the size of the panel, not the image itself.
 		// Meaning, if the image is 32x32 and the panel is 64x64, the image will be scaled to 64x64.

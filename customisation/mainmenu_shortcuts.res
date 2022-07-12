@@ -1,13 +1,13 @@
 // Purpose:
 //	Add custom bookmarks/shortcuts for you to use.
 //	It is recommended to add aliases of commands like the following format:
-//		bm_<letter>
+//		bm.<letter>
 //			letter	:	A letter to represent the bookmark, starting with "A".
 //	Examples:
-//	alias bm_a		"echo You're a butt!";								// Print to console
-//	alias bm_b		"echo Buttlord!";									// Print to console
-//	alias bm_c		"exec regen";										// Run config
-//	alias bm_d		"bot_kick dummy_01; bot -name dummy_01 -teleport";	// Spawn a new dummy bot where the crosshair is pointing
+//	alias "bm.a"		"echo You're a butt!";								// Print to console
+//	alias "bm.b"		"echo Buttlord!";									// Print to console
+//	alias "bm.c"		"exec regen";										// Run config
+//	alias "bm.d"		"bot_kick dummy_01; bot -name dummy_01 -teleport";	// Spawn a new dummy bot where the crosshair is pointing
 
 
 
@@ -110,7 +110,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"1"
-		"Command"								"engine bm_a"
+		"Command"								"engine bm.a"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -139,7 +139,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"2"
-		"Command"								"engine bm_b"
+		"Command"								"engine bm.b"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -168,7 +168,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"3"
-		"Command"								"engine bm_c"
+		"Command"								"engine bm.c"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -197,7 +197,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"4"
-		"Command"								"engine bm_d"
+		"Command"								"engine bm.d"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -226,7 +226,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"5"
-		"Command"								"engine bm_e"
+		"Command"								"engine bm.e"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -255,7 +255,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"6"
-		"Command"								"engine bm_f"
+		"Command"								"engine bm.f"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -284,7 +284,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"7"
-		"Command"								"engine bm_g"
+		"Command"								"engine bm.g"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -313,7 +313,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"8"
-		"Command"								"engine bm_h"
+		"Command"								"engine bm.h"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -342,7 +342,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"9"
-		"Command"								"engine bm_i"
+		"Command"								"engine bm.i"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
@@ -371,7 +371,7 @@
 		"sound_released"						"UI/buttonclickrelease.wav"
 
 		"labelText"								"10"
-		"Command"								"engine bm_j"
+		"Command"								"engine bm.j"
 
 		"border_default"						"MainMenuButtonDefault"
 		"border_armed"							"MainMenuButtonArmed"
