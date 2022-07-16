@@ -14,7 +14,25 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"59"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"fillcolor"		"32 32 32 128"
+		"PaintBackgroundType"	"0"
+	}
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -26,11 +44,11 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_background_tall_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"Icon_Sentry_1"
 	{
 		"ControlName"	"CIconPanel"
@@ -41,11 +59,11 @@
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_1"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"Icon_Sentry_2"
 	{
 		"ControlName"	"CIconPanel"
@@ -56,11 +74,11 @@
 		"tall"			"36"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_2"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"Icon_Sentry_3"
 	{
 		"ControlName"	"CIconPanel"
@@ -71,11 +89,11 @@
 		"tall"			"36"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_3"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -106,7 +124,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -116,7 +134,7 @@
 		"wide"			"160"
 		"tall"			"60"
 		"visible"		"0"
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
@@ -128,7 +146,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
 		}
@@ -144,7 +162,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
 		}
@@ -160,11 +178,11 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
-		
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -176,10 +194,10 @@
 			"wide"			"44"
 			"tall"			"60"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall"
 		}
-		
+
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -191,11 +209,11 @@
 			"tall"			"27"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -207,13 +225,13 @@
 			"tall"			"35"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -227,9 +245,9 @@
 			"enabled"		"1"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
-			"brighttext"	"0"	
+			"brighttext"	"0"
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -258,16 +276,16 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -277,7 +295,7 @@
 				"brighttext"	"0"
 			}
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -287,8 +305,8 @@
 			"wide"			"100"
 			"tall"			"60"
 			"visible"		"0"
-			
-			"KillIcon"	
+
+			"KillIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
@@ -303,9 +321,9 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-						
+
 			"KillsLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
 				"font"			"DefaultSmall"
@@ -322,8 +340,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-					
-			"ShellIcon"	
+
+			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
@@ -338,16 +356,16 @@
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-			
+
 			"Shells"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"
 				"xpos"			"12"
 				"ypos"			"26"
 				"wide"			"38"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -356,8 +374,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
-			"RocketIcon"	
+
+			"RocketIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"RocketIcon"
@@ -372,9 +390,9 @@
 				"image"			"../hud/hud_obj_status_rockets_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-			
+
 			"Rockets"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Rockets"
 				"font"			"Default"
@@ -402,13 +420,13 @@
 				"tall"			"10"
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
-			}			
-			
+			}
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"

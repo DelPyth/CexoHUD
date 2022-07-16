@@ -2,24 +2,36 @@
 {
 	"MainBackground"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBackground"
-		"xpos"			"50"
-		"ypos"			"10"
-		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"130"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"icon"			"hud_menu_bg"
-		"fillcolor"		"0 0 0 100"
+		"tall"			"0"
+	}
+
+	"Divider"
+	{
+		"tall"			"0"
 	}
 
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
+		"xpos"			"c-155"
+		"ypos"			"c148"
+		"zpos"			"0"
+		"wide"			"310"
+		"tall"			"48"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"fillcolor"		"32 32 32 255"
+		"PaintBackgroundType"	"0"
+	}
+
+	"DestroyItemBg1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"DestroyItemBg1"
 		"xpos"			"c-149"
 		"ypos"			"c152"
 		"zpos"			"1"
@@ -30,14 +42,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"black"
 		"PaintBackgroundType"	"0"
 	}
 
-	"ShadedBar2"
+	"DestroyItemBg2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar2"
+		"fieldName"		"DestroyItemBg2"
 		"xpos"			"c-74"
 		"ypos"			"c152"
 		"zpos"			"1"
@@ -48,14 +60,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"black"
 		"PaintBackgroundType"	"0"
 	}
 
-	"ShadedBar3"
+	"DestroyItemBg3"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar3"
+		"fieldName"		"DestroyItemBg3"
 		"xpos"			"c2"
 		"ypos"			"c152"
 		"zpos"			"1"
@@ -66,17 +78,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"black"
 		"PaintBackgroundType"	"0"
 	}
-	"Divider"
-	{
-		"tall"			"0"
-	}
-	"ShadedBar4"
+
+	"DestroyItemBg4"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar3"
+		"fieldName"		"DestroyItemBg3"
 		"xpos"			"c77"
 		"ypos"			"c152"
 		"zpos"			"1"
@@ -87,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"black"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -126,24 +135,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}
-
-	"ShadedBar5"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar3"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"286"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"fillcolor"		"32 32 32 255"
-		"PaintBackgroundType"	"0"
 	}
 
 	"TitleLabelDropshadow"

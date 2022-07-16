@@ -11,11 +11,11 @@
 		// Positioning
 		// Change the position of the crosshair image relative to half the size of the image
 		// With the size being what you want.
-		"xpos"                          "c-16"
-		"ypos"                          "c-16"
+		"xpos"                          "c-8"
+		"ypos"                          "c-8"
 		"zpos"                          "2"
-		"wide"                          "32"
-		"tall"                          "32"
+		"wide"                          "16"
+		"tall"                          "16"
 		"enabled"                       "1"
 
 		// The image to use for your crosshair.

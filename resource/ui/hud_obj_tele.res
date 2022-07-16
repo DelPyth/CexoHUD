@@ -14,7 +14,25 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"fillcolor"		"32 32 32 128"
+		"PaintBackgroundType"	"0"
+	}
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -26,11 +44,11 @@
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"
@@ -41,11 +59,11 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -75,7 +93,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -97,7 +115,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
 		}
@@ -113,7 +131,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
 		}
@@ -129,7 +147,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
@@ -144,7 +162,7 @@
 			"wide"			"34"
 			"tall"			"31"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"icon"			"obj_status_alert_background"
 		}
 
@@ -159,11 +177,11 @@
 			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -175,13 +193,13 @@
 			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
 
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -226,16 +244,16 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -245,7 +263,7 @@
 				"brighttext"	"0"
 			}
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -255,7 +273,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-			
+
 			"ChargingPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -265,7 +283,7 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-				
+
 				"RechargeLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -284,16 +302,16 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-				
+
 				"Recharge"
-				{	
+				{
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
 					"font"			"Default"
 					"xpos"			"0"
 					"ypos"			"11"
 					"wide"			"50"
-					"tall"			"5"				
+					"tall"			"5"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -301,9 +319,9 @@
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-				}	
+				}
 			}
-			
+
 			"FullyChargedPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -313,9 +331,9 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-								
+
 				"TimesUsedLabel"
-				{	
+				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
 					"font"			"DefaultVerySmall"
@@ -333,9 +351,9 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-			}	
+			}
 			"UpgradeLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
 				"font"			"DefaultVerySmall"
@@ -352,9 +370,9 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"

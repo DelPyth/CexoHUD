@@ -15,7 +15,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"fgcolor"		"RedSolid"
+		"fgcolor"		"205 50 50 255"
 		"bgcolor_override"	"0 0 0 0"
 		"textAlignment"	"center"
 		"dulltext"		"0"
