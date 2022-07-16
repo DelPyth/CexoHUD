@@ -1,5 +1,5 @@
-# Visual studio code crap.
-.vscode/*
-
 # Ignore sound cache folder, it's not needed.
 sound/*
+
+# Ignore the dev folder, I don't need you seeing what I'm working on ;)
+dev/*
