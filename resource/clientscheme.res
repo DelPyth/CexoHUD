@@ -18,6 +18,14 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		"Crosshair_Red"          "255 187 187 255"
+		"Crosshair_Yellow"       "250 237 195 255"
+		"Crosshair_Green"        "206 255 206 255"
+		"Crosshair_Blue"         "193 222 253 255"
+		"Crosshair_Violet"       "182 123 194 255"
+		"Crosshair_White"        "255 255 255 255"
+		"Crosshair_Black"        "044 044 044 255"
+
 		"MainMenuButton_default"		"75 130 255 255"
 		"MainMenuButton_armed"			"10 50 255 255"
 		"MainMenuButton_depressed"		"75 207 255 255"

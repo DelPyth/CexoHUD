@@ -5,7 +5,7 @@
 
 	"CustomCrosshairImage"              // Custom crosshair image
 	{
-		"ControlName"                   "ImagePanel"
+		"controlName"                   "ImagePanel"
 		"fieldname"                     "CustomCrosshairImage"
 
 		// Positioning
@@ -13,7 +13,7 @@
 		// With the size being what you want.
 		"xpos"                          "c-8"
 		"ypos"                          "c-8"
-		"zpos"                          "2"
+		"zpos"                          "3"
 		"wide"                          "16"
 		"tall"                          "16"
 		"enabled"                       "1"
@@ -42,7 +42,7 @@
 		// Might need to modify size and position to set properly to the center of the screen.
 		"xpos"                          "c-100"                                 // "cs-0.5007"
 		"ypos"                          "c-100"                                 // "cs-0.5007"
-		"zpos"                          "1"
+		"zpos"                          "2"
 		"wide"                          "200"
 		"tall"                          "200"
 		"enabled"                       "1"
@@ -56,19 +56,67 @@
 
 		// The size and option to toggle outline on or off.
 		// Size:
-		//	Minimum:   5
-		//	Maximum:   32
-		//	Increment: 1
+		//  Minimum:   5
+		//  Maximum:   32
+		//  Increment: 1
 		// Outline:
-		//	OFF: No outline
-		//	ON:  Outline
+		//  OFF: No outline
+		//  ON:  Outline
 		"font"                          "size=24;outline=OFF"
 
 		// Crosshair color.
 		// Current: Fully visible, full white.
-		"fgcolor"                       "255 255 255 255"
+		"fgcolor"                       "Crosshair_White"
 
 		// Set this to "1" to show the crosshair.
 		"visible"                       "0"
+	}
+
+	"PixelPerfectCross"                 // Pixel perfect cross... crosshair.
+	{
+		"controlName"                   "ImagePanel"
+		"fieldName"                     "PixelPerfectCross"
+		"xpos"                          "0"
+		"ypos"                          "0"
+		"zpos"                          "1"
+		"wide"                          "f0"
+		"tall"                          "f0"
+
+		// Edit me!
+		// Set this to "1" to show the crosshair, "0" to hide it.
+		"visible"                       "1"
+		"enabled"                       "1"
+
+		"cross_tall"
+		{
+			"controlName"               "ImagePanel"
+			"fieldName"                 "cross_tall"
+
+			// It is ill advised to modify any of these.
+			"xpos"                      "cs-0.5-p0.001"
+			"ypos"                      "cs-0.5"
+			"wide"                      "p0.001"
+			"tall"                      "5"
+
+			// Crosshair color.
+			// Current: Fully visible, full white.
+			"fillColor"                 "Crosshair_White"
+		}
+
+		"cross_wide"
+		{
+			"controlName"               "ImagePanel"
+			"fieldName"                 "cross_wide"
+
+			// It is ill advised to modify any of these.
+			"xpos"                      "cs-0.5-p0.001"
+			"ypos"                      "cs-0.5"
+			"wide"                      "5"
+			"tall"                      "1"
+
+			// Crosshair color.
+			// Current: Fully visible, full white.
+			"fillColor"                 "Crosshair_White"
+		}
 	}
 }
