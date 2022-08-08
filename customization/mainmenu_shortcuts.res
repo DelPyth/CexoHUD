@@ -52,7 +52,7 @@
 	{
 		"controlName"							"CExButton"
 		"fieldName"								"ShortcutHelpButton"
-		"xpos"									"-245"
+		"xpos"									"-240"
 		"ypos"									"-2"
 		"zpos"									"15"
 		"wide"									"30"

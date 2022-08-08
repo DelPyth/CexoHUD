@@ -1,0 +1,14 @@
+event DamagedPlayer
+{
+	StopEvent HitMarker       0.0
+	RunEvent HitMarker        0.01
+}
+
+event HitMarker
+{
+	Animate	cross_wide_main       BgColor       "Crosshair_Red"  Linear 0.0   0.00001
+	Animate	cross_wide_main       BgColor       "Crosshair_White"  Linear 0.10  0.10001
+
+	Animate	cross_tall_main       BgColor       "Crosshair_Red"  Linear 0.0   0.00001
+	Animate	cross_tall_main       BgColor       "Crosshair_White"  Linear 0.10  0.10001
+}

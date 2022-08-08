@@ -24,13 +24,10 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"fillcolor"		"32 32 32 128"
-		"PaintBackgroundType"	"0"
+		// "PaintBackgroundType"	"0"
 	}
 
 	"Background"
@@ -42,7 +39,7 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_background_red"

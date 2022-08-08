@@ -1,3 +1,5 @@
+#base "../../customization/team_indicator_bar_ammo.res"
+
 "Resource/UI/HudAmmoWeapons.res"
 {
 	"HudWeaponAmmoBG"
@@ -16,7 +18,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"AmmoInClip"	//moves everything
+
+	"AmmoInClip"		// moves everything
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"

@@ -1,3 +1,5 @@
+#base "../../customization/team_indicator_bar_health.res"
+
 "Resource/UI/HudPlayerHealth.res"
 {
 	// player health data

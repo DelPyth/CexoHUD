@@ -1,6 +1,6 @@
-#base "../customisation/crosshairs.res"
-#base "../customisation/transparent_weapons.res"
-#base "../customisation/voice_chat.res"
+#base "../customization/crosshairs.res"
+#base "../customization/transparent_viewmodels.res"
+#base "../customization/voice_chat.res"
 
 "Resource/HudLayout.res"
 {

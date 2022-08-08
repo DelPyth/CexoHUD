@@ -74,49 +74,99 @@
 
 	"PixelPerfectCross"                 // Pixel perfect cross... crosshair.
 	{
-		"controlName"                   "ImagePanel"
+		// DEV NOTE:
+		//  I would use the values commented out down below, but on 4:3 or 16:10, they don't quite work correctly.
+		//  The solution I have below works just fine and I'm more than willing to keep it as is.
+
+		"controlName"                   "EditablePanel"
 		"fieldName"                     "PixelPerfectCross"
 		"xpos"                          "0"
 		"ypos"                          "0"
-		"zpos"                          "1"
+		"zpos"                          "10"
 		"wide"                          "f0"
 		"tall"                          "f0"
 
-		// Edit me!
+		// ================================
+		// >>>>>>>     Edit me!     <<<<<<<
+		// ================================
 		// Set this to "1" to show the crosshair, "0" to hide it.
 		"visible"                       "1"
 		"enabled"                       "1"
 
-		"cross_tall"
+		"cross_tall_main"
 		{
-			"controlName"               "ImagePanel"
-			"fieldName"                 "cross_tall"
+			"controlName"               "CExLabel"
+			"fieldName"                 "cross_tall_main"
 
 			// It is ill advised to modify any of these.
-			"xpos"                      "cs-0.5-p0.001"
-			"ypos"                      "cs-0.5"
-			"wide"                      "p0.001"
-			"tall"                      "5"
+			"xpos"                      "cs-0.5"  // "cs-0.5-p0.001"
+			"ypos"                      "cs-0.5"  // "cs-0.5"
+			"wide"                      "1"  // "p0.001"
+			"tall"                      "6"
+			"zpos"                      "2"
+			"labelText"                 ""
 
 			// Crosshair color.
 			// Current: Fully visible, full white.
-			"fillColor"                 "Crosshair_White"
+			"bgColor"                   "Crosshair_White"
+			"bgColor_override"          "Crosshair_White"
 		}
 
-		"cross_wide"
+		"cross_wide_main"
 		{
-			"controlName"               "ImagePanel"
-			"fieldName"                 "cross_wide"
+			"controlName"               "CExLabel"
+			"fieldName"                 "cross_wide_main"
 
 			// It is ill advised to modify any of these.
-			"xpos"                      "cs-0.5-p0.001"
-			"ypos"                      "cs-0.5"
-			"wide"                      "5"
+			"xpos"                      "cs-0.5"  // "cs-0.5-p0.001"
+			"ypos"                      "cs-0.5"  // "cs-0.5"
+			"wide"                      "6"
 			"tall"                      "1"
+			"zpos"                      "2"
+			"labelText"                 ""
 
 			// Crosshair color.
 			// Current: Fully visible, full white.
-			"fillColor"                 "Crosshair_White"
+			"bgColor"                   "Crosshair_White"
+			"bgColor_override"          "Crosshair_White"
+		}
+
+		"cross_tall_back"
+		{
+			"controlName"               "CExLabel"
+			"fieldName"                 "cross_tall_back"
+
+			// It is ill advised to modify any of these.
+			"xpos"                      "cs-0.5"  // "cs-0.5-p0.001"
+			"ypos"                      "cs-0.5"  // "cs-0.5"
+			"wide"                      "2"  // "p0.001"
+			"tall"                      "7"
+			"zpos"                      "1"
+			"labelText"                 ""
+
+			// Crosshair color.
+			// Current: Fully visible, full white.
+			"bgColor"                   "Crosshair_Black"
+			"bgColor_override"          "Crosshair_Black"
+		}
+
+		"cross_wide_back"
+		{
+			"controlName"               "CExLabel"
+			"fieldName"                 "cross_wide_back"
+
+			// It is ill advised to modify any of these.
+			"xpos"                      "cs-0.5"  // "cs-0.5-p0.001"
+			"ypos"                      "cs-0.5"  // "cs-0.5"
+			"wide"                      "7"
+			"tall"                      "2"
+			"zpos"                      "1"
+			"labelText"                 ""
+
+			// Crosshair color.
+			// Current: Fully visible, full white.
+			"bgColor"                   "Crosshair_Black"
+			"bgColor_override"          "Crosshair_Black"
 		}
 	}
 }
