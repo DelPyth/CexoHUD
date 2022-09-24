@@ -8,29 +8,14 @@
 {
 	"FriendsContainer"
 	{
-		// TOGGLE ME!
-		// Set to 1 to enable the friends list on the main menu.
-		// Set to 0 to disable the friends list.
-		"visible"		"1"
-
-
-
-
-
-
-
-
-
-
-
-		// Ignore me! :)
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-290"
-		"ypos"			"260"
+		"ypos"			"265"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"150"
+		"visible"		"1"
 
 		"border"		"MainMenuBGBorder"
 

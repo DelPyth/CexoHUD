@@ -11,17 +11,17 @@
 		// Positioning
 		// Change the position of the crosshair image relative to half the size of the image
 		// With the size being what you want.
-		"xpos"                          "c-8"
-		"ypos"                          "c-8"
+		"xpos"                          "c-128"
+		"ypos"                          "c-128"
 		"zpos"                          "3"
-		"wide"                          "16"
-		"tall"                          "16"
+		"wide"                          "256"
+		"tall"                          "256"
 		"enabled"                       "1"
 
 		// The image to use for your crosshair.
 		// This image must be in the `materials/vgui/replays/thumbnails` directory in order to show no matter what server you join.
 		// Replace the CROSSHAIR with your file name. The file must have a VMT file and the crosshair must be in the VTF format.
-		"image"                         "replay/thumbnails/crosshair"
+		"image"                         "replay/thumbnails/xhair_zero"
 
 		// Scale image. As far as I know, this scales the image to the size of the panel, not the image itself.
 		// Meaning, if the image is 32x32 and the panel is 64x64, the image will be scaled to 64x64.
@@ -72,6 +72,28 @@
 		"visible"                       "0"
 	}
 
+	"PerfectCircleAimAssist"                // A simple circle that surrounds your current crosshair. (Not actually aim assist.)
+	{
+		"controlName"                   "CExLabel"
+		"fieldName"                     "PerfectCircleAimAssist"
+		"xpos"                          "c-100"
+		"ypos"                          "c-100"
+		"zpos"                          "2"
+		"wide"                          "200"
+		"tall"                          "200"
+		"enabled"                       "1"
+		"textAlignment"                 "center"
+		"labelText"                     "i"
+		"font"                          "PerfectCircle"
+
+		// Crosshair color.
+		// Current: Fully visible, full white.
+		"fgcolor"                       "Crosshair_White"
+
+		// Set this to "1" to show the crosshair.
+		"visible"                       "1"
+	}
+
 	"PixelPerfectCross"                 // Pixel perfect cross... crosshair.
 	{
 		// DEV NOTE:
@@ -90,8 +112,8 @@
 		// >>>>>>>     Edit me!     <<<<<<<
 		// ================================
 		// Set this to "1" to show the crosshair, "0" to hide it.
-		"visible"                       "1"
-		"enabled"                       "1"
+		"visible"                       "0"
+		"enabled"                       "0"
 
 		"cross_tall_main"
 		{
@@ -139,8 +161,8 @@
 			// It is ill advised to modify any of these.
 			"xpos"                      "cs-0.5"  // "cs-0.5-p0.001"
 			"ypos"                      "cs-0.5"  // "cs-0.5"
-			"wide"                      "2"  // "p0.001"
-			"tall"                      "7"
+			"wide"                      "3"  // "p0.001"
+			"tall"                      "8"
 			"zpos"                      "1"
 			"labelText"                 ""
 
@@ -158,8 +180,8 @@
 			// It is ill advised to modify any of these.
 			"xpos"                      "cs-0.5"  // "cs-0.5-p0.001"
 			"ypos"                      "cs-0.5"  // "cs-0.5"
-			"wide"                      "7"
-			"tall"                      "2"
+			"wide"                      "8"
+			"tall"                      "3"
 			"zpos"                      "1"
 			"labelText"                 ""
 

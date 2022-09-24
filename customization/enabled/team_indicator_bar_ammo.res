@@ -9,7 +9,7 @@
 		"fieldName"				"team_indicator"
 		"xpos"					"-55"
 		"ypos"					"-36"
-		"zpos"					"-1"
+		"zpos"					"100"
 		"wide"					"50"
 		"tall"	 				"2"
 		"autoResize"			"0"
