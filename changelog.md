@@ -44,3 +44,6 @@ Header style: `version  (YYYY-MM-DD)`
 - Added team indicator.
 	- Team indicator is a line that's underneath both your health and ammo.
 		- This can be disabled by opening `./customization/team_indicator_bar_WHATEVER.res` where `WHATEVER` is what you want to edit.
+
+## 1.2.0  (2022-09-23)
+- Moved customizations to be able to be moved instead of modifying the contents.

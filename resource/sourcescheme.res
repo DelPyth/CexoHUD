@@ -2,148 +2,192 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
+	// colors
 	Colors
 	{
-	    "TFDarkBrown"               "60 56 53 255"
-	    "TFDarkBrownTransparent"    "60 56 53 190"
-	    "TFTanBright"               "236 227 203 150"
-	    "TFTanLight"                "201 188 162 150"
-	    "TFTanMedium"               "131 121 104 150"
+		"TFDarkBrown"                            "050 046 043 255"
+		"TFDarkBrownTransparent"                 "050 046 043 190"
+		"TFTanBright"                            "236 227 203 150"
+		"TFTanLight"                             "235 226 202 255"
+		"TFTanMedium"                            "131 121 104 150"
 
-	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "96 90 78 90"
+		"TFTanLightBright"                       "229 223 211 090"
+		"TFTanLightDark"                         "096 090 078 090"
 
-	    "TFOrangeBright"            "156 82 33 255"
+		"TFOrangeBright"                         "050 046 043 255"
 
-	    "TFTextBright"              "251 236 203 150"
-	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"              "131 121 104 255"
-	    "TFTextMediumDark"          "104 96 83 255"
-	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "131 121 104 255"
+		"TFText"              	                 "046 043 042 255"
+		"TFTextBright"                           "251 236 203 255"
+		"TFTextLight"                            "201 188 162 255"
+		"TFTextMedium"                           "131 121 104 150"
+		"TFTextMediumDark"                       "235 226 202 255"
+		"TFTextBlack"                            "042 039 037 255"
+		"TFTextDull"                             "131 121 104 255"
 
-	    "TFMediumBrown"		"69 64 58 255"
+		"TFMediumBrown"                          "069 064 058 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+		"QuickListBGDeselected"                  "069 064 058 255"
+		"QuickListBGSelected"                    "131 121 104 150"
 
-	    "Blank"				"0 0 0 0"
+		"Blank"                                  "000 000 000 000"
 
-	    // background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		// background
+		"ControlBG"                              "040 037 037 255"           // controls bg
+		"ControlDarkBG"                          "000 000 000 255"           // darker bg color
+		"WindowBG"                               "069 064 058 255"           // textbox bg colors
+		"SelectionBG"                            "050 046 043 190"           // background color of selected text or menu item
+		"SelectionBG2"                           "050 046 043 190"           // selection background without focus
+		"ListBG"                                 "040 037 037 255"           // background of server browser, friends list, etc.
 	}
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"TFTanLightDark"	// the lit side of a control
-		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
-		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
+		Border.Bright                            "TFTanLightDark"
+		Border.Dark                              "TFTanLightDark"
+		Border.Selection                         "TFTanLight"
 
-		Button.TextColor				"TFDarkBrown"
-		Button.BgColor					"TFTanLight"
-		Button.ArmedTextColor			"TFDarkBrown"
-		Button.ArmedBgColor				"TFTanBright"
-		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"
-		Button.FocusBorderColor			"TransparentBlack"
+		Button.TextColor                         "TFTanLight"
+		Button.BgColor                           "TFDarkBrownTransparent"
+		Button.ArmedTextColor                    "TFTanLight"
+		Button.ArmedBgColor                      "TFTanBright"
+		Button.DepressedTextColor                "TFTanLight"
+		Button.DepressedBgColor                  "TFTanLight"
+		Button.FocusBorderColor                  "TransparentBlack"
 
-		CheckButton.TextColor			"TFTextBright"
-		CheckButton.SelectedTextColor		"TFTextBright"
-		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
-		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.TextColor                    "TFTextBright"
+		CheckButton.SelectedTextColor            "TFTextBright"
+		CheckButton.BgColor                      "ListBG"
+		CheckButton.HighlightFgColor             "TFTextMedium"
+		CheckButton.ArmedBgColor                 "Blank"
+		CheckButton.DepressedBgColor             "Blank"
+		CheckButton.Border1                      "Border.Dark"
+		CheckButton.Border2                      "Border.Bright"
+		CheckButton.Check                        "TFTanBright"
+		CheckButton.DisabledBgColor              "ListBG"
 
-		ToggleButton.SelectedTextColor	"TFTextBright"
+		ToggleButton.SelectedTextColor           "TFTextBright"
 
-		ComboBoxButton.ArrowColor		"TFTanLight"
-		ComboBoxButton.ArmedArrowColor	"TFTanBright"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+		ComboBoxButton.ArrowColor                "TFTanLight"
+		ComboBoxButton.ArmedArrowColor           "TFTanBright"
+		ComboBoxButton.BgColor                   "Blank"
+		ComboBoxButton.DisabledBgColor           "Blank"
 
-		RadioButton.TextColor		"TFTextBright"
-		RadioButton.SelectedTextColor	"TFTextBright"
-		RadioButton.ArmedTextColor	"TFTextMedium"
+		RadioButton.TextColor                    "TFTextBright"
+		RadioButton.SelectedTextColor            "TFTanLight"
+		RadioButton.ArmedTextColor               "TFTextMedium"
 
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
-		FrameGrip.Color1				"TFTanMedium"
-		FrameGrip.Color2				"TFDarkBrown"
-		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
-		FrameTitleBar.TextColor			"TFTanBright"
-		FrameTitleBar.DisabledTextColor	"TFTanLight"
+		Frame.BgColor                            "46 43 42 255"
+		Frame.OutOfFocusBgColor                  "46 43 42 196"
+		FrameGrip.Color1                         "TFTanMedium"
+		FrameGrip.Color2                         "TFDarkBrown"
+		FrameTitleButton.FgColor                 "TFTanBright"
+		FrameTitleBar.Font                       "DefaultLarge"           [$WIN32]
+		FrameTitleBar.TextColor                  "TFTanBright"
+		FrameTitleBar.DisabledTextColor          "TFTanLight"
 
-		Label.TextDullColor				"TFTextDull"
-		Label.TextColor					"TFTextBright"
-		Label.TextBrightColor			"TFTextBright"
-		Label.SelectedTextColor			"TFTextBright"
-		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"
-		Label.DisabledFgColor2			"Blank"
+		Label.TextDullColor                      "TFTextDull"
+		Label.TextColor                          "TFTextBright"
+		Label.TextBrightColor                    "TFTanLightBright"
+		Label.SelectedTextColor                  "TFDarkBrown"
+		Label.BgColor                            "Blank"
+		Label.DisabledFgColor1                   "TFTextDull"
+		Label.DisabledFgColor2                   "Blank"
 
-		ListPanel.TextColor					"TFTextBright"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
+		ListPanel.TextColor                      "TFTextBright"
+		ListPanel.BgColor                        "ListBG"
+		ListPanel.SelectedBgColor                "SelectionBG"
+		ListPanel.SelectedOutOfFocusBgColor      "SelectionBG2"
 
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
-		MainMenu.Inset				"32"
+		MainMenu.TextColor                       "TFTanLightDark"         [$WIN32]
+		MainMenu.ArmedTextColor                  "TFTanLight"             [$WIN32] // 117 107 94 255
+		MainMenu.Inset                           "32"
 
-		Menu.TextInset					"6"
-		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
-		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
-		Menu.DividerColor		"BorderDark"
+		Menu.TextInset                           "6"
+		Menu.FgColor                             "TFTextLight"
+		Menu.BgColor                             "ListBG"
+		Menu.ArmedFgColor                        "TFTextBright"
+		Menu.ArmedBgColor                        "TFOrangeBright"
+		Menu.DividerColor                        "BorderDark"
 
-		ScrollBarButton.FgColor				"TFDarkBrown"
-		ScrollBarButton.BgColor				"TFTanLight"
-		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
-		ScrollBarButton.ArmedBgColor		"TFTanBright"
-		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
+		Console.TextColor                        "003 113 156 255"
+		Console.DevTextColor                     "White"
 
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		ScrollBarButton.FgColor                  "TFDarkBrown"
+		ScrollBarButton.BgColor                  "TFTanLight"
+		ScrollBarButton.ArmedFgColor             "TFDarkBrown"
+		ScrollBarButton.ArmedBgColor             "TFTanBright"
+		ScrollBarButton.DepressedFgColor         "TFDarkBrown"
+		ScrollBarButton.DepressedBgColor         "TFTanLight"
 
-		Slider.NobColor				"TFTanLight"
-		Slider.TextColor			"TFTextBright"
-		Slider.TrackColor			"ListBG"
-		Slider.DisabledTextColor1	"TFTextMediumDark"
-        Slider.DisabledTextColor2	"Blank"
+		ScrollBarSlider.BgColor                  "TFTanMedium"
+		ScrollBarSlider.FgColor                  "TFTanLight"
 
-		TextEntry.TextColor			        "TFTextBright"
-		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		Slider.NobColor                          "TFTanLight"
+		Slider.TextColor                         "TFTextBright"
+		Slider.TrackColor                        "ListBG"
+		Slider.DisabledTextColor1                "TFTextMediumDark"
+		Slider.DisabledTextColor2                "Blank"
+
+		TextEntry.TextColor                      "TFTextMedium"
+		TextEntry.DisabledTextColor              "TFTextMediumDark"
+		TextEntry.SelectedBgColor                "TFOrangeBright"
 	}
 
 	Fonts
 	{
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Arial"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
+
+		"Default"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
+			}
+		}
+
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"500"
+			}
+		}
+
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"500"
+			}
+		}
+
+		"ServerBrowserSmall"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+			}
+		}
+
 		"MenuLarge"
 		{
 			"1"	[$X360]
@@ -162,16 +206,21 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 
-		"Default" [$OSX]
+		"ServerBrowserTitleWithoutParent"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"TF2 BuildBrowser"
+				"tall"		"35"
+				"tall_lodef"	"40"
 				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 
@@ -179,24 +228,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"TF2 Secondary"
+				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"TF2 Secondary"
+				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"TF2 Secondary"
+				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -204,7 +253,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Tahoma"
+				"name"		"TF2 Build"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -213,7 +262,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Tahoma"
+				"name"		"TF2 Build"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -221,125 +270,28 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-
-		AchievementItemTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
-				"antialias"		"1"
-			}
-		}
-
-		AchievementItemTitleLarge	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
-				"antialias"		"1"
-			}
-		}
-
-		AchievementItemDescription	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
-			}
-		}
-
-		"ConsoleText"
-		{
-			"1"
-			{
-				"name"		"Consolas"
-				"tall"		"11"
-				"weight"	"500"
-			}
-		}
 	}
 
 	CustomFontFiles
 	{
-		"6"
+		"8"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
 			"russian"
 			{
-				"range" "0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"
+		"9"
 		{
-			"font" "resource/fonts/CascadiaCode.ttf"
-			"name" "Cascadia Code SemiBold"
+			"font" "resource/TF2secondary.ttf"
+			"name" "TF2 Secondary"
+		}
+		"10"
+		{
+			"font" "resource/TF2BuildBrowser.ttf"
+			"name" "TF2 BuildBrowser"
 		}
 	}
 }

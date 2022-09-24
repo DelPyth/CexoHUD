@@ -796,6 +796,17 @@ Scheme
 			}
 		}
 
+		"PerfectCircle"
+		{
+			"1"
+			{
+				"name"		"Formas germetricas 1"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
 		"size=5;outline=OFF"
 		{
 			"1"
@@ -7186,6 +7197,11 @@ Scheme
 		{
 			"font" "resource/fonts/HudasIscariote2.otf"
 			"name" "Hudas Iscariote"
+		}
+		"12"
+		{
+			"font"	"resource/fonts/FORMASGE.ttf"
+			"name"	"FORMASGE"
 		}
 	}
 }

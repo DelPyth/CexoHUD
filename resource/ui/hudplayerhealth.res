@@ -1,4 +1,4 @@
-#base "../../customization/team_indicator_bar_health.res"
+#base "../../customization/enabled/team_indicator_bar_health.res"
 
 "Resource/UI/HudPlayerHealth.res"
 {
@@ -15,7 +15,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"	"0.5"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 

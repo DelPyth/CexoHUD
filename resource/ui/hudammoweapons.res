@@ -1,4 +1,4 @@
-#base "../../customization/team_indicator_bar_ammo.res"
+#base "../../customization/enabled/team_indicator_bar_ammo.res"
 
 "Resource/UI/HudAmmoWeapons.res"
 {

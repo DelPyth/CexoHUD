@@ -8,7 +8,7 @@ hudanimations_manifest
 	// Add two forward slashes like this short paragraph in front of the quote and you're done.
 	// Remove the two slashes to enable it again.
 	// Do note on lower end PCs, if this is enabled, your game may slow down or spike in FPS. So keep that in mind.
-	"file"  "scripts/hudanimations_damage.txt"
+	// "file"  "scripts/hudanimations_damage.txt"
 
 	// Default animations.
 	"file"  "scripts/hudanimations.txt"

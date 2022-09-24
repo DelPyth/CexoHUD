@@ -1,5 +1,5 @@
-#base "..\..\customization\mainmenu_shortcuts.res"
-#base "..\..\customization\mainmenu_friends_list.res"
+#base "../../customization/enabled/mainmenu_shortcuts.res"
+#base "../../customization/enabled/mainmenu_friends_list.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

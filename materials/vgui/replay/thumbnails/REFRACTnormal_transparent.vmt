@@ -6,5 +6,16 @@
 	"$refractblur" "0.0"
 
 	"$scale" "[1 1]"
-	"$normalmap" "vgui/replay/thumbnails/REFRACTnormal_transparent"
+
+	// With this, the texture won't show if you're on DX 80-ish.
+	// Hopefully........
+	<dx90
+	{
+		"$normalmap" "vgui\replay\thumnails\null"
+	}
+
+	>=dx90
+	{
+		"$normalmap" "vgui\replay\thumbnails\REFRACTnormal_transparent"
+	}
 }
