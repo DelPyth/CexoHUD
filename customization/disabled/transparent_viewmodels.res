@@ -22,7 +22,7 @@
 
 		// Set this to "0" to disable transparent viewmodels.
 		// Set to "1" to show it.
-		"visible"						"0"
+		"visible"						"1"
 		"enabled"						"1"
 	}
 }
