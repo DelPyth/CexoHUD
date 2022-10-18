@@ -12,13 +12,13 @@
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

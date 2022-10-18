@@ -1,3 +1,5 @@
+#base "../../customization/enabled/ootw_minmode.res"
+
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter

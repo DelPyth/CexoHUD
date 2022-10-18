@@ -1,4 +1,5 @@
 #base "../../customization/enabled/team_indicator_bar_health.res"
+#base "../../customization/enabled/ootw_minmode.res"
 
 "Resource/UI/HudPlayerHealth.res"
 {
@@ -7,14 +8,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-240"
+		"xpos"			"c-200"
 		"ypos"			"r160"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"80"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"HealthBonusPosAdj"	"35"
+		"HealthBonusPosAdj"	"0"
 		"HealthDeathWarning"	"0.5"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
@@ -50,8 +51,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"60"
-		"ypos"			"21" // r137
+		"xpos"			"30"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"40"
@@ -65,9 +66,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"160"
+		"wide"			"100"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
@@ -83,7 +84,7 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"5"
-		"wide"			"160"
+		"wide"			"100"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"

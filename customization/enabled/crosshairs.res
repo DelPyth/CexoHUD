@@ -91,7 +91,7 @@
 		"fgcolor"                       "Crosshair_White"
 
 		// Set this to "1" to show the crosshair.
-		"visible"                       "1"
+		"visible"                       "0"
 	}
 
 	"PixelPerfectCross"                 // Pixel perfect cross... crosshair.
